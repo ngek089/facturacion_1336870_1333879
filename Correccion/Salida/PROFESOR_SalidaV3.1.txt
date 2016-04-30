@@ -1,0 +1,139 @@
+INFORME DE CORRECCION VERSION V3.1 
+=================================================================== 
+Fichero de comandos comandosV3.txt 
+=================================================================== 
+0000000
+nombre del alumno 1
+apellidos del alumno 1
+0000000
+nombre del alumno 2
+apellidos del alumno 2
+Fichero de órdenes: comandos\comandosV3.txt
+1 : Linea : Nuevo Cliente pepe 1
+2 : Linea : Nuevo Cliente juan 5
+3 : Linea : Nuevo Cliente carlos 1
+3 : Excepcion : CInvoicing$CClientDuplicatedNumber: número de cliente duplicado 1
+4 : Linea : Nuevo Cliente pepe 10
+4 : Excepcion : CInvoicing$CClientDuplicatedName: nombre de cliente duplicado pepe
+5 : Linea : Modificar Cliente pepe nombre juan
+5 : Excepcion : CInvoicing$CClientDuplicatedName: nombre de cliente duplicado juan
+6 : Linea : Modificar Cliente pepe numero 5
+6 : Excepcion : CInvoicing$CClientDuplicatedNumber: número de cliente duplicado 5
+7 : Linea : Nuevo Producto rastrillo 1 10
+8 : Linea : Nuevo Producto peonza 2 20
+9 : Linea : Nueva Factura 1 pepe
+10 : Linea : Nueva Linea 1 rastrillo 5
+11 : Linea : Ver Clientes
+11 : Salida : [Client(pepe,1), Client(juan,5)]
+12 : Linea : Ver Productos
+12 : Salida : [CProduct(rastrillo,1,10.0), CProduct(peonza,2,20.0)]
+13 : Linea : Ver Facturas
+13 : Salida : [Invoice(1,pepe,[CInvoiceLine(rastrillo,5)])]
+14 : Linea : Listado Facturas
+LISTADO DE FACTURAS MUEBLES JOSE
+NUMERO DE FACTURA   CLIENTE             IMPORTE
+1                   pepe                50.0
+TOTAL: 50.0
+15 : Linea : Listado Productos
+LISTADO DE PRODUCTOS MUEBLES JOSE
+CODIGO PRODUCTO   NOMBRE
+1                 rastrillo           
+2                 peonza              
+16 : Linea : Listado Clientes
+LISTADO DE CLIENTES MUEBLES JOSE
+NUMERO DE CLIENTE   NOMBRE
+1                   pepe                
+5                   juan                
+=================================================================== 
+Fichero de comandos comandosV3.1.txt 
+=================================================================== 
+0000000
+nombre del alumno 1
+apellidos del alumno 1
+0000000
+nombre del alumno 2
+apellidos del alumno 2
+Fichero de órdenes: comandos\comandosV3.1.txt
+1 : Linea : Nuevo Cliente pepe 1
+2 : Linea : Nuevo Cliente juan 5
+3 : Linea : Nuevo Cliente carlos 1
+3 : Excepcion : CInvoicing$CClientDuplicatedNumber: número de cliente duplicado 1
+4 : Linea : Nuevo Cliente pepe 10
+4 : Excepcion : CInvoicing$CClientDuplicatedName: nombre de cliente duplicado pepe
+5 : Linea : Modificar Cliente pepe nombre juan
+5 : Excepcion : CInvoicing$CClientDuplicatedName: nombre de cliente duplicado juan
+6 : Linea : Modificar Cliente pepe numero 5
+6 : Excepcion : CInvoicing$CClientDuplicatedNumber: número de cliente duplicado 5
+7 : Linea : Nuevo Producto rastrillo 1 10
+8 : Linea : Nuevo Producto peonza 2 20
+9 : Linea : Nueva Factura 1 pepe
+10 : Linea : Nueva Linea 1 rastrillo 5
+11 : Linea : Ver Clientes
+11 : Salida : [Client(pepe,1), Client(juan,5)]
+12 : Linea : Ver Productos
+12 : Salida : [CProduct(rastrillo,1,10.0), CProduct(peonza,2,20.0)]
+13 : Linea : Ver Facturas
+13 : Salida : [Invoice(1,pepe,[CInvoiceLine(rastrillo,5)])]
+14 : Linea : Listado Facturas
+LISTADO DE FACTURAS MUEBLES JOSE
+NUMERO DE FACTURA   CLIENTE             IMPORTE
+1                   pepe                50.0
+TOTAL: 50.0
+15 : Linea : Listado Productos
+LISTADO DE PRODUCTOS MUEBLES JOSE
+CODIGO PRODUCTO   NOMBRE
+1                 rastrillo           
+2                 peonza              
+16 : Linea : Listado Clientes
+LISTADO DE CLIENTES MUEBLES JOSE
+NUMERO DE CLIENTE   NOMBRE
+1                   pepe                
+5                   juan                
+=================================================================== 
+Fichero de comandos comandosV4.txt 
+=================================================================== 
+0000000
+nombre del alumno 1
+apellidos del alumno 1
+0000000
+nombre del alumno 2
+apellidos del alumno 2
+Fichero de órdenes: comandos\comandosV4.txt
+1 : Linea : Nuevo Cliente pepe 1
+2 : Linea : Nuevo Cliente juan 5
+3 : Linea : Nuevo Cliente carlos 1
+3 : Excepcion : CInvoicing$CClientDuplicatedNumber: número de cliente duplicado 1
+4 : Linea : Nuevo Cliente pepe 10
+4 : Excepcion : CInvoicing$CClientDuplicatedName: nombre de cliente duplicado pepe
+5 : Linea : Modificar Cliente pepe nombre juan
+5 : Excepcion : CInvoicing$CClientDuplicatedName: nombre de cliente duplicado juan
+6 : Linea : Modificar Cliente pepe numero 5
+6 : Excepcion : CInvoicing$CClientDuplicatedNumber: número de cliente duplicado 5
+7 : Linea : Nuevo Producto rastrillo 1 10
+8 : Linea : Nuevo Producto peonza 2 20
+9 : Linea : Nueva Factura 1 10/12/2015 pepe
+9 : Excepcion : CInvoicing$CClientNotFound: No se ha encontrado el cliente 10/12/2015
+10 : Linea : Nueva Linea 1 rastrillo 5
+10 : Excepcion : CInvoicing$CInvoiceNotFound: Factura no encontrada 1
+11 : Linea : Ver Clientes
+11 : Salida : [Client(pepe,1), Client(juan,5)]
+12 : Linea : Ver Productos
+12 : Salida : [CProduct(rastrillo,1,10.0), CProduct(peonza,2,20.0)]
+13 : Linea : Ver Facturas
+13 : Salida : []
+14 : Linea : Listado Facturas
+LISTADO DE FACTURAS MUEBLES JOSE
+NUMERO DE FACTURA   CLIENTE             IMPORTE
+TOTAL: 0.0
+15 : Linea : Listado Productos
+LISTADO DE PRODUCTOS MUEBLES JOSE
+CODIGO PRODUCTO   NOMBRE
+1                 rastrillo           
+2                 peonza              
+16 : Linea : Listado Clientes
+LISTADO DE CLIENTES MUEBLES JOSE
+NUMERO DE CLIENTE   NOMBRE
+1                   pepe                
+5                   juan                
+17 : Linea : Imprimir factura 1
+17 : Excepcion : CMain$CSyntaxError: Orden no reconocida Imprimir factura 1

@@ -1,0 +1,9 @@
+Nuevo Cliente pepe 1
+Nuevo Cliente juan 5
+Nuevo Producto rastrillo 1
+Nuevo Producto peonza 2
+Nueva Factura 1 pepe
+Nueva Linea 1 rastrillo
+Ver Clientes
+Ver Productos
+Ver Facturas
